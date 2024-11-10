@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from './Navbar'
+import'../app/styles/hero.css'
 
 const Hero = () => {
   return (
-    <div id='hero' className="min-h-screen	bg-no-repeat   bg-cover"
+    <div id='hero' className="hero-container"
     >
 
         <Navbar />
-        <div className='container grid lg:grid-cols-1 h-[calc(100vh-60px)]'>
+        <div className='hero-content'>
 
             <div className='hidden lg:block'></div>
-            <div className='text-[80px] sm:text-[100px] font-bold leading-tight pl-16'>
+            <div className='hero-text'>
                 <div>
                     <p data-aos="fade-right">I'm</p>
                     <p data-aos="fade-right">Haris</p>
@@ -25,4 +26,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;

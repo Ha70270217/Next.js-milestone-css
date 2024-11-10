@@ -5,35 +5,13 @@
 body{
   color: white;
   background-color: black;
+  margin: 0;
 }
 
- components{
-  .tags{
-         background-color:#0abde3;
-         margin-right: 0.5rem;
-         margin-top: 0.5rem;
-         padding: 3px 10px;
-         display: inline-block;
-         color: #fff;
-         font-size: 12px;
-  }
-
-  .tags:last-child{
-    margin-right: 0;
-
-  }
-  .tags:nth-child(2){
-    background-color: #a55eae;
-
-  }
-
-  .tags:nth-child(3){
-    background-color: #0abde3;
-
-  }
-
-  .tags:nth-child(4){
-    background-color: #bd9f11;
-
-  }
+*{
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: white;
 }
+ 

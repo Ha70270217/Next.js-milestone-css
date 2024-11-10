@@ -1,0 +1,49 @@
+.project-container{
+    padding-top:8rem ;
+    width: 100%;
+    margin-right:auto ;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project-grid{
+    display: grid;
+    gap: 2.5rem;
+
+}
+
+.project.grid.xl{
+    gap: 2.5rem;
+}
+
+.project-grid-md-2{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.project-grid-lg-3{
+     grid-template-columns: repeat(3, 1fr);
+}
+
+.project-center{
+    place-items: center;
+
+
+}
+
+@media (min-width:786px) and (max-width :1024px){
+
+    .project-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (min-width:1024px){
+    .project-grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
