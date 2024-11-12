@@ -1,5 +1,5 @@
 .about-container{
-    padding-top: 8rem;
+    padding-top: 7rem;
     width: 100;
     margin-right: auto;
     margin-left: auto;
@@ -8,9 +8,10 @@
 }
 
 .about-heading{
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: inherit;
     margin: 0;
+    
 }
 
 

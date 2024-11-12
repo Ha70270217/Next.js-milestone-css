@@ -2,10 +2,10 @@
     border:1px solid #333;
     width: 100%;
     max-width: 300%;
-    background-color: #08E59E;
+   
 }
 
-.card-sm{
+.card-image-sm{
     width: 100%;
     max-width: 350%;
 }
@@ -35,7 +35,7 @@
 }
 
 .card-tags{
-    background-color:#0abde3;
+    
     margin-right: 0.5rem;
     margin-top: 0.5rem;
     padding: 3px 10px;

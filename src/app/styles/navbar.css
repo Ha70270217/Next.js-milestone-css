@@ -29,7 +29,7 @@
     line-height: 1.75rem;
 }
 
-.navbar-links{
+.navbar-link{
     display: flex;
     gap: 4rem;
     list-style: none;
@@ -50,13 +50,13 @@
 }
 
 @media(max-width:1024px){
-    .navbar-links{
+    .navbar-link{
       display: none;
     }
 }
 
 @media(min-width:1024px){
-    .navbar-links{
+    .navbar-link{
         display: flex;
     }
 }

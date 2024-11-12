@@ -4,15 +4,14 @@ import'../app/styles/hero.css'
 
 const Hero = () => {
   return (
-    <div id='hero' className="hero-container"
-    >
+  <div id='hero' className="hero-container">
 
         <Navbar />
         <div className='hero-content'>
 
             <div className='hidden lg:block'></div>
             <div className='hero-text'>
-                <div>
+                <div className='hero-msin'>
                     <p data-aos="fade-right">I'm</p>
                     <p data-aos="fade-right">Haris</p>
                     <p data-aos="fade-right">Arif</p>

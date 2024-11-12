@@ -6,7 +6,7 @@
 
 .hero-content{
 
-    display: grid;
+    margin-left: 55px;
     height:calc(100vh-60px) ;
     grid-template-columns: 1fr 1fr;
 }
@@ -14,14 +14,14 @@
 .hero-text{
     line-height: 1.25rem;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: left;
+    justify-content: left;
+    align-items: left;
     color: white;
     font-size: 6.25rem;
 
 }
-.hero-msin p{
+.hero-msin{
 
     margin: 0;
 }

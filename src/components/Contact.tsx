@@ -7,7 +7,7 @@ import'../app/styles/contact.css'
 const Contact = () => {
   return (
     <div id='contact' className='contact-container'>
-        <div className='grid md:grid-cols-2 gap-10'>
+        <div className='contact-grid md:grid-cols-2 '>
             <div className='contact-space'>
                 <h2 className='contact-heading' data-aos="zoom-in-up">Get in touch</h2>
                 <p className='contact-text'data-aos="zoom-in-up">
@@ -24,13 +24,13 @@ const Contact = () => {
                 <div className='form'data-aos="zoom-in-up">
                     <label htmlFor="name">Name</label>
                     <input type="text" 
-                    className='h-[40px] bg-transparent border border-accent'
+                    className='input-field'
                     id='name' />
                 </ div>
                 <div className='form'data-aos="zoom-in-up">
                     <label htmlFor="email">Email</label>
                     <input type="text" 
-                    className='h-[40px] bg-transparent border border-accent'
+                    className='input-field'
                     id='email' />
                 </div>
                 <div className='form'data-aos="zoom-in-up">

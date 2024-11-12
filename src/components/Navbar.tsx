@@ -2,12 +2,14 @@ import React from 'react'
 import'../app/styles/navbar.css'
 
 
+
+
 const Navbar = () => {
   return (
     <div className="navbar-container ">
       <div className="navbar">
         <div className="navbar-brand" data-aos="fade-right">Haris </div>
-        <ul className="gap-10 lg:gap-16 hidden md:flex">
+        <ul className="navbar-link ">
 
             <li className='navbar-link'><a href="#hero">Home</a></li>
             <li className='navbar-link'><a href="#about">About</a></li>

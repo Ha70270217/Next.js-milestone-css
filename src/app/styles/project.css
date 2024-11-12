@@ -1,33 +1,33 @@
-.project-container{
-    padding-top:8rem ;
-    width: 100%;
-    margin-right:auto ;
-    margin-left: auto;
+.projects-container{
+    padding-top:4rem ;
+    width: 60%;
+    margin-right: auto;
+    margin: left 115px;;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.project-grid{
-    display: grid;
+.projects-grid{
+    display: left;
     gap: 2.5rem;
 
 }
 
-.project.grid.xl{
+.projects.grid.xl{
     gap: 2.5rem;
 }
 
-.project-grid-md-2{
+.projects-grid-md-2{
     grid-template-columns: repeat(2, 1fr);
 
 }
 
-.project-grid-lg-3{
+.projects-grid-lg-3{
      grid-template-columns: repeat(3, 1fr);
 }
 
-.project-center{
-    place-items: center;
+.projects-center{
+    place-items: left;
 
 
 }
