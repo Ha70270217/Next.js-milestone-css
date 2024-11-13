@@ -15,9 +15,8 @@ import "aos/dist/aos.css"
 
 
 
-export default function home() {
-
-  useEffect(()=>{
+ function Home() {
+     useEffect(()=>{
     AOS.init({
       easing:"ease-out-back",
       duration:1200,
@@ -28,12 +27,12 @@ export default function home() {
   
     });
 
-    AOS.refresh()
+    AOS.refresh();
    },[])
      
 
   return (
-    <div>
+    
       <main>
         <Hero />
         <Projects />
@@ -44,7 +43,8 @@ export default function home() {
         
       </main>
       
-    </div>
+    
   );
 }
 
+export default Home
