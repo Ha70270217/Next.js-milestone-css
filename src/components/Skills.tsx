@@ -1,5 +1,7 @@
 import React from 'react'
-import   '../app/styles/skills.css'
+import   "../app/styles/skills.css"
+
+
 const Skills = () => {
   return (
     <div id='skills' className='skills-container'>
