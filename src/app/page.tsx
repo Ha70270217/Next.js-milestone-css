@@ -13,20 +13,24 @@ import "aos/dist/aos.css"
 
 
 
+
+
 export default function home() {
 
-     useEffect(()=>{
-      AOS.init({
-        easing:"ease-out-back",
-        duration:1200,
-        delay:100,
-        mirror:true,
-        anchorPlacement:"bottom-bottom",
-        offset:160,
+  useEffect(()=>{
+    AOS.init({
+      easing:"ease-out-back",
+      duration:1200,
+      delay:100,
+      mirror:true,
+      anchorPlacement:"bottom-bottom",
+      offset:160,
+  
+    });
 
-      });
-      AOS.refresh()
-     },[])
+    AOS.refresh()
+   },[])
+     
 
   return (
     <div>

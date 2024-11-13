@@ -7,7 +7,7 @@ const Skills = () => {
             <div className='skills-left'data-aos="zoom-in-up">
                 <h1 className='skills-heading' >Technologies I work with</h1>
                 <p  className='skills-text'  >
-                    I have a solid foundation in web development,specailizing in HTML,CSS and Javascript.My experience extend to usings frameworks like react and nextjs to create dynamic and userfriendly application.I'm also proficient in Tailwind.css for efficient styling and design.With a passion for learning, I stay updated on the latest tecnologies to enhance my skills set nd contribute effectively to projects.
+                    I have a solid foundation in web development,specailizing in HTML,CSS and Javascript.My experience extend to usings frameworks like react and nextjs to create dynamic and userfriendly application.I m also proficient in Tailwind.css for efficient styling and design.With a passion for learning, I stay updated on the latest tecnologies to enhance my skills set nd contribute effectively to projects.
                 </p>
             </div>
 

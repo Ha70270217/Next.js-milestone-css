@@ -15,9 +15,9 @@ interface propsType{
 
 const Card: React.FC<propsType> = ({title, desc, img, tags}) => {
   return (
-    <div className={`card ${window.innerWidth >= 640 ? 'card-sm' : ''}`}data-aos="zoom-in-up">
+    <div className="card" data-aos="zoom-in-up">
         <div>
-          <Image className={`card-image ${window.innerWidth >= 640 ? 'card-image-sm' : ''}`}
+          <Image className="card"
         src={img}
         width={350}
         height={350}

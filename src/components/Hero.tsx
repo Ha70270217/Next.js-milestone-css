@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='hidden lg:block'></div>
             <div className='hero-text'>
                 <div className='hero-msin'>
-                    <p data-aos="fade-right">I'm</p>
+                    <p data-aos="fade-right">I m</p>
                     <p data-aos="fade-right">Haris</p>
                     <p data-aos="fade-right">Arif</p>
                 </div>
